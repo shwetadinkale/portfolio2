@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+        <style>
+            .count {
+                    
+                    font-size: 25px;
+                    text-shadow: 1px 1px 10px rgb(54, 132, 177)
+                    
+            }
+
+
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+    </head>
+    <body>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Shweta Dinkale</a> 
+                </div>
+            
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        
+                        <li class="nav__item"><a href="index.html" class="nav__link ">Home Page</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="counter">
+
+                    <div class="head">Total Website Visit</div>
+                    <div class="count">00</div>
+                    
+            
+                </div>
+                
+            
+            
+                <script src='script.js'></script>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title"> online medical appointment system</h2>
+
+                
+                    
+                    <div>
+                        <h2 class="about__subtitle"></h2>
+                        <p class="about__text">
+                            
+                            Biometrics devices can take unique information about you from your eye, or your hand prints, or your thumb prints and use it to identify you. This information can be used to obtain the valuable healthcare information. The personal health monitoring of each individual is considered very important because of rise in health problems in today's world. The increasing stressful lifestyle is taking maximum toll on the public health. With the ever increasing queues at hospitals and ever increasing number of patients, the doctor fees have sky-rocketed which is affecting especially those patients who cannot afford the fee or who are not suffering from major ailments but get to know so only after paying a hefty fee to the doctor. The researchers and surveys often demonstrate that most of the major health ailments are the result of careless attitude towards the minor health ailments. Majority of these issues can be solved by just following a good diet, proper sleep pattern and regular exercising. But how does a patient know what diet is good or what exercise he/she should follow and more importantly whether the plan that he is following is working effectively for him. The absence of such a mechanism makes the task of patient a difficulty, thus landing him with an option either to go to the doctor that means heavy fee or ignore the ailment that is more dangerous.<br>
+
+ 
+
+                            Moreover the increase in patients has also led to the decrease in the relative number of doctors per patient which results in vicious cycle where ignored or delayed diagnostics of an ailment makes the patient more dependent on doctor’s check-up. But is it necessary that every time the user faces some issue or requires advice, that are not that serious, like somebody wants to get rid of some extra fat or somebody wants to improve his/her stamina, he/she is required to go to doctor?<br>
+                            
+                            Well, though it is advisable to visit the doctor whenever possible, but as discussed above if due to unavailability of specialist due to some reason, the Health Monitoring Devices offer and effective alternative. These days it is advisable to each individual to monitor and maintain good health by using biometric health monitoring devices and keep modifying their diet so as to improve their health stats. Thus there is a need for software that utilizes the data available from the device, uploads it to the website, gets feedback from the doctors via internet and show health reports. Doctor should be able to get data anytime he wants for analysis.<br>
+                            
+                                                                                                                                         
+                            
+                            The biometric health devices can record the various data like metabolism rate, sleep hour, sedentary activity while being in contact with the user and this data from user can be used by physicians to recommend any changes to user’s routine. Our project attempts to use the information obtained using such devices to give the detailed analysis of health of a patient/individual that can help in getting a prompt and timely advice from a doctor. Currently healthcare monitoring is extensively doctor depending .Our System is basically designed for those customers who can self-monitor their health indicators to check the progress that they are making through a diet plan change or exercise routine modification. An option will also be provided to customer to send the report to the doctor for expert advice in case the customer feels he/she is not completely satisfied by the diet routine, sleep hours or any other general habit he is acquiring. Different types of health indicators would be used for the analysis.<br>
+                            
+                             
+                            
+                            The System will basically consists of three different users that would be interacting with the aim of providing better healthcare service through mutual utilization of self-monitoring and the consultation from a specialist. The mutual interaction exists because user will have the option of sending the data for analysis to the doctor, getting the feedback and then acting on his advice. The three users are:-<br>
+                            
+                             
+                            <br>
+                            1. Patient<br>
+                            
+                            2. Doctor<br>
+                            
+                            3. Administrator<br>
+                            
+                             
+                            
+                            The Patient will register himself with system initially by providing the various personal details that includes his name, age, sex ,etc., along with the doctor’s name with which he wants to consult ,if at all. The registration part is mandatory before the user is able to use the system for his task completion. Then the user proceeds with login using his/her unique id and password. Upon logging into the application the user will have a window screen with few options. One of the option user will have is to upload the file that the system will be using to display the data to the user interface. This data file is generated as a result of the data collected by the health monitoring device that the user wears on his arm-band for a particular duration of time. This file can be uploaded into the user desktop by connecting device through Bluetooth or USB cable. It is assumed that the data would be available in the Excel File. The data in this file is not present in user friendly manner and therefore is not of much use to the customer. The application that is being developed will make this data suitable for user display and analysis and also make provisions to send the data to the doctor. Once this file is uploaded into the system, it would give the user an option to proceed with the execution. This would result in the user getting a clear picture of all the parameters which were recorded by the device over that particular period of time.<br>
+                            
+                             
+                            
+                            There are various parameters that would be available for user display and analysis like, Total energy expenditure (kcal/min) that will display the amount of calories burned by the patient over a periodof time. It will depend directly on the type of activity that the user is doing within that time.<br>
+
+                             
+                            
+                            The total duration that the user slept during that time would also be provided, including other activities like number of steps taken, that is especially useful for patients aiming at weight reduction monitoring. The working professionals whose workplace activities involve lot of sedentary activities would be interested in knowing the time that they spent sitting. The Sedentary parameter would be available for the user to monitor that. Such diversified parameters would make the application cater to the requirements of various categories of people, thus achieving higher customer base.<br>
+                            
+                             
+                            
+                            The customer should have an additional feature to view the whole data captured in a graphical form for a better analysis as we believe graphs are much easier to analyze and understand as compared to other forms, hence making the customer’s and doctor’s job much easier.<br>
+                            
+                             
+                            
+                            The role of doctor is vital to any healthcare process and we would provide the provision in our project to get doctors feedback .The patient should be able to send the report to the doctor, who was specified by the customer during his/her registration. But this functionality should be entirely upon the discretion of the user that whether he/she chooses doctor’s analysis or not. If the customer feels, he/she is satisfied with his improvement and performance after monitoring the data provided by our application, then patient can logout of the system.<br>
+                            
+                             
+                            
+                            The Doctor should be able to register for the application using the same process and then log in the system using his unique credential. Once the doctor gets logged in, he/she should be able to see the data of a patient through a user interface that allows him to select the patients. Once the patient gets selected the data should be available for the doctors analysis as it was presented to the customer, with the exception that doctor should be able to add his/her comments or feedback after seeing the details of the patient thus issuing his/her advice. It must be noted that the data available for monitoring should not be editable either by the patient or the doctor. Once the doctor’s feedback is posted, user/patient would be able to see that once after logging into his account.<br>
+                            
+                             
+                            
+                            The role of administrator should be limited to the validation of authenticity of the patient or the doctor. The parameters that admin would use for validating the authenticity of the doctors are external to the project and not in its scope.<br>
+                            
+                             
+                            
+                            The designed application will be extremely user friendly since the users can be of any age. Simplicity in presenting the application to the user will be the key to success of this system.<br>
+</p>           
+                    </div>                                   
+                </div>
+            </section>
+        
+            
+            
+
+            
+
+            
+
+
+       
+
+    </body>
+</html>
+
+
